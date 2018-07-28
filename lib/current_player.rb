@@ -11,4 +11,13 @@ def turn_count(board)
   return turn_counter 
 end 
 
+#CURRENT_PLAYER method code##############################
 
+def current_player(board)
+  if turn_counter(board) % 2 == 0 
+    return "X"
+  else
+    return "O"
+  
+  
+end
