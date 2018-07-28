@@ -4,8 +4,9 @@ def turn_count(board)
   turn_counter = 0 
   
   board.each do |entry|
-    if #{entry} == "X" || #{entry} == "O"
-      turn_counter =+ 1 
+    #if #{entry} == "X" || #{entry} == "O"
+     # turn_counter =+ 1 
+     puts "#{entry}"
     end 
   end
   return turn_counter 
